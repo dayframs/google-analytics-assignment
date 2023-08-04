@@ -1,0 +1,49 @@
+@media (max-width: 600px) {
+    .div5 {
+    display: flex;
+    flex-direction: column;
+}
+.div3 {
+    display: flex;
+    width: 70%;
+    margin-inline: auto;
+}
+.div4 {
+    display: flex;
+    position: relative;
+    width: 60%;
+    height: 0;
+   margin-inline: auto;
+}
+.scroll {
+    left: -300px;
+    height: 0;
+}
+.div6 h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 40px;
+    margin-left: -10px;
+}
+.div10 {
+    width: 70%;
+    margin-inline: auto;
+} 
+.div12a, .div13c {
+    width: 70%;
+    max-width: 70%;
+    margin-inline: auto;
+}
+.pagefooter a {
+    margin-right: 0px;
+    font-size: 12px;
+    margin-left: 12px;
+}
+.pagefooter {
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+}

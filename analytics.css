@@ -5,8 +5,8 @@
 }
 header {
     width: 100%;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
     min-height: 20px;
     border-bottom: 2px solid rgba(117, 111, 111, 0.7);
     padding: 18px;
@@ -26,26 +26,26 @@ header h2 {
     vertical-align: middle;
     cursor: pointer;
 }
-.div1 {
+.div1a, .div1b {
     display: flex;
-    width: 50%;
+}
+.div1a {
     align-items: center;
 }
-/* .div2 {
-    display: flex;
-    width: 100%;
-    justify-items: right; */
+.div1b {
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
 header button {
     background-color: rgba(66, 133, 244, 0.9);
     padding: 10px 20px;
     color: white;
     border: none;
-    margin-left: 520px;
     font-size: 14px;
     font-weight: 600;
     box-shadow: 4px 4px 4px rgba(128, 128, 128, 0.4);
     cursor: pointer;
-    min-width: 100px;
 }
 header button:hover {
     background-color: rgb(66, 133, 244);
@@ -75,6 +75,7 @@ header button:hover {
 }
 .div4 {
     display: flex;
+    position: relative;
     width: 70%;
     max-height: 360px;
 }
@@ -99,13 +100,14 @@ header button:hover {
 .div5 {
     background-color: rgba(235, 229, 229, 0.5);
     position: relative;
+    display: flex;
 }
 .scroll {
     position: absolute;
     background-color: rgba(66, 133, 244, 0.9);
     width: 60px;
     border-radius: 30px;
-    right: 625px;
+    left: -30px;
     margin-top: 270px;
     width: 30px;
     padding: 15px;
