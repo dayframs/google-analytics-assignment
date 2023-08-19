@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 header {
     width: 100%;
@@ -11,6 +12,7 @@ header {
     border-bottom: 2px solid rgba(117, 111, 111, 0.7);
     padding: 18px;
     box-shadow: 10px 10px 10px rgba(70, 68, 68, 0.5);
+    overflow: hidden;
 }
 header h2 {
     font-weight: 400;
@@ -105,9 +107,8 @@ header button:hover {
 .scroll {
     position: absolute;
     background-color: rgba(66, 133, 244, 0.9);
-    width: 60px;
     border-radius: 30px;
-    left: -30px;
+    left: 46.5%;
     margin-top: 270px;
     width: 30px;
     padding: 15px;
@@ -122,7 +123,7 @@ header button:hover {
     font-weight: 400;
     font-size: 32px;
     margin-bottom: 40px;
-    margin-left: -10px;
+    margin-left: 0;
 }
 .div7 a img {
     width: 100px;
@@ -139,11 +140,13 @@ header button:hover {
     letter-spacing: .3px;
 }
 .boxes {
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    row-gap: 20px;
-    column-gap: 20px;
     flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 .div7 p {
     margin-top: 40px;
@@ -157,21 +160,24 @@ header button:hover {
     margin-left: 0px;
 }
 footer {
-    height: 50px;
+    height: 60px;
+    overflow: hidden;
 }
-footer img {
-    width: 40px;
-    margin-left: 190px;
+footer i {
+    width: 200px;
+    margin-left: 180px;
     cursor: pointer;
+    color: orange;
+    font-size: 38px;
 }
 .div10 {
-    width: 230px;
+    width: 235px;
     background-color: white;
-    padding-left: 14px;
-    padding-right: 14px;
-    border-radius: 3px;
+    padding: 0 16px;
+    border-radius: 4px;
     height: 450px;
     box-shadow: 5px 5px 5px rgba(107, 104, 104, 0.5);
+    overflow: hidden;
 } 
 .div7 {
     width: 100%;
@@ -185,6 +191,7 @@ footer img {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
+    overflow: hidden;
 }
 .div8 h1 {
     color: black;
@@ -194,23 +201,21 @@ footer img {
 }
 .div8a {
     min-height: 100px;
-    /* margin: auto;
-    width: 90%; */
     background-color: rgba(231, 226, 226, 0.5);
     box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.4);
     display: flex;
 }
 .div8b {
-    min-width: 17%;
+    max-width: 25%;
     min-height: 100px;
 }
 .div8c {
-    max-width: 83%;
+    width: 83%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* padding: 20px; */
     min-height: 100px;
+    overflow: hidden;
 }
 .div8b img {
     width: 100%;
@@ -252,11 +257,11 @@ footer img {
 .div12 {
     display: flex;
     flex-direction: row;
-    padding: 20px 10px 10px 60px;
-    column-gap: 13px;
-    row-gap: 13px;
+    padding: 20px;
+    gap: 13px;
     flex-wrap: wrap;
     margin-bottom: 50px;
+    justify-content: center;
 }
 .div12 img {
     height: 50px;
@@ -287,9 +292,9 @@ footer img {
 .div13b {
     display: flex;
     flex-direction: row;
-    padding: 20px 30px 10px 60px;
-    column-gap: 13px;
-    row-gap: 13px;
+    justify-content: center;
+    padding: 20px;
+    gap: 13px;
     flex-wrap: wrap;
     margin-bottom: 20px;
     border-top: 1px solid grey;   
@@ -311,6 +316,7 @@ footer img {
 }
 .pagefooter {
     text-align: right;
+    overflow: hidden;
 }
 .pagefooter a {
     text-decoration: none;
