@@ -19,7 +19,7 @@ header h2 {
     font-size: 25px;
     cursor: pointer;
     color: rgba(0, 0, 0, 0.7);
-    min-width: 300px;
+    min-width: 100px;
 } 
 .googlelogo {
     width: 80px;

@@ -6,6 +6,9 @@
 header {
     grid-template-columns: 4fr 1fr;
 }
+header h2 {
+    font-size: 17px;
+} 
 .div3 {
     display: flex;
     width: 70%;
