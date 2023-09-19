@@ -74,9 +74,14 @@ header button:hover {
     row-gap: 40px;
     padding: 50px 80px;
     min-height: 200px;
+    background-color: rgb(255, 255, 255, 0.1);
+    z-index: 0.5;
 }
 .div4 {
-    display: flex;
+    background-image: url(./hero_academy-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     position: relative;
     width: 70%;
     max-height: 360px;
@@ -86,6 +91,7 @@ header button:hover {
 }
 .div5 {
     display: flex;
+    z-index: 0.5;
 
 }
 .hero3 {
@@ -105,13 +111,13 @@ header button:hover {
     display: flex;
 }
 .scroll {
-    position: absolute;
     background-color: rgba(66, 133, 244, 0.9);
     border-radius: 30px;
-    left: 46.5%;
-    margin-top: 270px;
+    left: -32px;
+    top: 270px;
     width: 30px;
     padding: 15px;
+    position: absolute;
 }
 .div6 {
     background-color: rgb(66, 133, 244);
